@@ -1,0 +1,10 @@
+/**
+ * <p>Provides support for hardware features, such as the camera and other sensors. Be aware that
+ * not all Android-powered devices support all hardware features, so you should declare hardware
+ * that your application requires using the <a
+ * href="{@docRoot}guide/topics/manifest/uses-feature-element.html">{@code
+ * <uses-feature>}</a> manifest element.</p>
+ @apiSince 1
+ */
+
+package android.hardware;

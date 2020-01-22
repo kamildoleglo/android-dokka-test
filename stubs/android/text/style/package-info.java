@@ -1,0 +1,9 @@
+/**
+ * <p>Provides classes used to view or change the style of a span of text in a View object.
+ * The classes with a subclass Standard are passed in to {@link android.text.SpannableString#setSpan(java.lang.Object, int, int, int)
+ * SpannableString.setSpan()} or {@link android.text.SpannableStringBuilder#setSpan(java.lang.Object, int, int, int)
+ * SpannableStringBuilder.setSpan()} to add a new styled span to a string in a View object.
+ @apiSince 1
+ */
+
+package android.text.style;

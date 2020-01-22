@@ -1,0 +1,16 @@
+The directores in this archive contain the following:
+
+- 0.10.0: generated files using kotlin/dokka master@23fbfa0e8e793314cea8d96ac1584d72ec70bb60
+- 0.11.0: generated files using kotlin/dokka dev-0.11.0@288431f21b18f5311de77c9afcb29346cb7c6498
+- 0.9.17-google: generated files using the Google Dokka fork* at 6170736b81021c1b69f4e9f633b41d3cb4eab2dd
+- stubs: the source files used for doc generation
+
+
+Here are the command line params used for generating docs:
+
+- 0.10.0 and 0.11.0: -pass -src <stubs directory> -format html -output <output directory> -noJdkLink
+- 0.9.17-google: <stubs directory> -format dac -dacRoot /reference/kotlin -output <output directory> -noJdkLink -useSamplesURL
+
+
+* The version of Dokka we are using to generate reference docs for https://developer.android.com/reference is based on a heavily customized Dokka 0.9.17 fork, located here: https://android.googlesource.com/platform/external/dokka/
+
